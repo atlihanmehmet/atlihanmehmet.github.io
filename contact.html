@@ -10,7 +10,8 @@
     body {
       align-content: center;
       color:gray;
-      background-color:aliceblue;
+      background-color:rgb(206, 206, 206);
+      
     } 
     .in {
       width: 40%;
@@ -18,6 +19,7 @@
       float:left;
       padding: 5px;
       margin: auto;
+      background-color:rgb(206, 206, 206);
       
       
       } 
@@ -27,6 +29,7 @@
       float: left;
       padding: 5px;
       margin:auto;
+      background-color:rgb(206, 206, 206);
     }
       
     .foto {
@@ -37,6 +40,15 @@
       display: inline;
       float:right;
       margin: 5px;
+      background-color:black;
+    }
+    .input-group-text {
+      background-color:indigo;
+      Color: white;
+    }
+    .d {
+      background-color:indigo;
+      width: 14%;
     }
   </style>
   </head>
@@ -90,7 +102,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" aria-label="Text input with dropdown button">
                 <div class="input-group-append">
-                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@gmail.com</button>
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" style="background-color:indigo; color:white;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@gmail.com</button>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">@hotmail.com</a>
                     <a class="dropdown-item" href="#">@windowslive.com</a>
@@ -102,10 +114,12 @@
               
             <div class="inpt">
               <div class="form-group">
-                <label for="comment">Message:</label>
+                <div class="d">
+                <label for="comment" style="color:white"><b>Message:</b></label>
+              </div>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
-              <button type="button" class="btn btn-outline-primary">Submit</button>
+              <button type="button" style="background-color:indigo; color:white;" class="btn btn-outline-primary">Submit</button>
             </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
